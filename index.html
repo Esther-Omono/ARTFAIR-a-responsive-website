@@ -386,13 +386,133 @@
     </section>
 
     <!-- Partners -->
-    <section>Partners</section>
+    <section>
+      <h2>Partners | Carousel</h2>
+    </section>
 
     <!-- Newsletter | CTA -->
-    <section>Newsletter</section>
+    <section>
+      <div class="container">
+        <div class="news-letter">
+          <h4>Join Our Newsletter</h4>
+          <form class="newsletter-form">
+            <input
+              type="email"
+              class="form-control"
+              placeholder="Your Email Address"
+              name="EMAIL"
+              required=""
+              autocomplete="off"
+            />
+            <button
+              class="btn btn-primary"
+              type="submit"
+              style="pointer-events: all; cursor: pointer"
+            >
+              Subscribe
+            </button>
+            <div id="validator-newsletter" class="form-result"></div>
+          </form>
+        </div>
+      </div>
+    </section>
 
     <!-- Contact -->
-    <section>Contact</section>
+    <section class="contact">
+      <div class="container">
+        <div class="section-title">
+          <h4>Get in Touch</h4>
+          <h2>Let's <span>Contact</span> Us</h2>
+          <p></p>
+        </div>
+
+        <div class="map-and-info">
+          <div id="map">
+            <h3>The map goes here...</h3>
+          </div>
+          <div class="inner-contact">
+            <div class="contact-info">
+              <ul>
+                <li>
+                  <i class="fa fa-map-marker"></i> 38/40, Orlando Martins(Old
+                  Strachan Street), Lagos, Island
+                </li>
+                <li>
+                  <i class="fa fa-envelope"></i>
+                  <a href="#">mayfair@gmail.com</a>
+                </li>
+                <li><i class="fa fa-phone"></i> <a href="#">08188000047</a></li>
+                <li><i class="fa fa-fax"></i> <a href="#">08188000071</a></li>
+              </ul>
+            </div>
+
+            <div class="contact-form">
+              <h4>Stay Connected</h4>
+              <form id="contactForm" novalidate="true">
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="name"
+                    id="name"
+                    required=""
+                    data-error="Please enter your name"
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    name="email"
+                    id="email"
+                    required=""
+                    data-error="Please enter your email"
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="number">Phone Number</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="number"
+                    id="number"
+                    required=""
+                    data-error="Please enter your number"
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea
+                    name="message"
+                    class="form-control"
+                    id="message"
+                    cols="30"
+                    rows="6"
+                    required=""
+                    data-error="Write your message"
+                  ></textarea>
+                </div>
+
+                <button
+                  type="submit"
+                  class="btn btn-primary"
+                  style="pointer-events: all; cursor: pointer"
+                >
+                  Send Message
+                </button>
+                <div id="msgSubmit" class="h3 text-center hidden"></div>
+                <div class="clearfix"></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Footer -->
     <footer>Footer</footer>

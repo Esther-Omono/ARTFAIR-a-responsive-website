@@ -188,3 +188,55 @@ span {
     margin-bottom: 3em;
     font-size: 1em;
 }
+
+/* Media Queries */
+@media (max-width: 650px) {
+    .header__content {
+        padding: 0 3em;
+    }
+
+    .nav {
+        position: fixed;
+        top: 3.75em;
+        left: 0;
+        width: 100%;
+        padding: 0.6em 0 1.6em;
+        background-color: var(--black);
+        transform: translateX(-100%);
+    }
+
+    .nav__list {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 1.25em;
+    }
+
+    .nav__link {
+        font-size: 0.9em;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .mainbanner__text h1 {
+        font-size: 1.5em;
+    }
+
+    .mainbanner__text p {
+        font-size: 0.75em;
+    }
+
+    
+    .btn {
+        padding: 10px 20px;
+        margin: 0.4em;
+        font-size: 0.75em;
+        border-radius: 30px;
+        font-weight: 400;
+    }
+
+    .btn__secondary {
+        border: 1.5px solid var(--brand-color);
+    }
+}

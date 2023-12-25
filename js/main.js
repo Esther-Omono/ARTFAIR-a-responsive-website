@@ -20,3 +20,6 @@ window.addEventListener("scroll", () => {
     hamburger.classList.toggle("hamburger-sticky", window.scrollY > 0);
     logo.classList.toggle("logo-sticky", window.scrollY > 0);
 })
+
+// Creating a Mixer
+var mixer = mixitup(".mixitcontainer");

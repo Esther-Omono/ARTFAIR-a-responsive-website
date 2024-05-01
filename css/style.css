@@ -669,6 +669,7 @@ span {
 }
 
 /* ============ Newsletter ============ */
+
 .cta {
     text-align: center;
     background-color: var(--black);
@@ -714,6 +715,11 @@ span {
     color: var(--white);
     border: none;
 }
+
+.newsletter form .btn:hover {
+    background-color: var(--black);
+}
+
 
 /* ============ Contact ============ */
 .contact__details {
@@ -964,5 +970,46 @@ footer p {
 
     .work__menu-items {
         flex-direction: column;
+    }
+
+    .cta {
+        text-align: center;
+        background-color: var(--black);
+    }
+      
+    .newsletter {
+        max-width: 100%; /* Full width on smaller screens */
+        box-shadow: 0 0 30px 0 rgba(67, 67, 67, 0.15);
+        background-color: var(--white);
+        padding: 20px;
+        border-radius: 5px;
+    }
+      
+    .newsletter h4 {
+        text-transform: capitalize;
+        margin-bottom: 20px; /* Reduce margin for smaller screens */
+        font-size: 24px; /* Reduce font size for smaller screens */
+        font-weight: 600;
+    }
+      
+    .newsletter form .newsletter__form-input {
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1); /* Lighter shadow */
+        height: 50px; /* Reduce height for smaller screens */
+        width: 100%;
+        border-radius: 25px; /* Adjust border radius */
+        padding-left: 15px; /* Reduce padding for smaller screens */
+        font-size: 16px; /* Reduce font size for smaller screens */
+    }
+      
+    .newsletter form .btn {
+        position: relative; /* Remove absolute positioning */
+        margin-top: 10px; /* Add margin for separation */
+        height: 50px;
+        background-color: var(--brand-color);
+        color: var(--white);
+        border: none;
+        border-radius: 25px; /* Adjust border radius */
+        width: 50%; /* Full width button */
+        font-size: 17px;
     }
 }

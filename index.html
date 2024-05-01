@@ -433,22 +433,76 @@
       </div>
     </section>
 
-    <!-- Partners -->
-    <section class="padtb-80">
-      <h2>Partners | Carousel</h2>
+    <!-- Slider -->
+    <section class="padtb-80 slider">
+      <div class="slider__container" id="sliderContainer">
+        <div class="slider__group">
+          <div class="slider__item">
+            <img src="images/partner-1.png" alt="partner" />
+          </div>
+
+          <div class="slider__item">
+            <img src="images/partner-2.png" alt="partner" />
+          </div>
+
+          <div class="slider__item">
+            <img src="images/partner-3.png" alt="partner" />
+          </div>
+
+          <div class="slider__item">
+            <img src="images/partner-4.png" alt="partner" />
+          </div>
+        </div>
+
+        <div class="slider__group">
+          <div class="slider__item">
+            <img src="images/partner-5.png" alt="partner" />
+          </div>
+
+          <div class="slider__item">
+            <img src="images/partner-6.png" alt="partner" />
+          </div>
+
+          <div class="slider__item">
+            <img src="images/partner-1.png" alt="partner" />
+          </div>
+
+          <div class="slider__item">
+            <img src="images/partner-2.png" alt="partner" />
+          </div>
+        </div>
+
+        <div class="slider__group">
+          <div class="slider__item">
+            <img src="images/partner-3.png" alt="partner" />
+          </div>
+
+          <div class="slider__item">
+            <img src="images/partner-4.png" alt="partner" />
+          </div>
+
+          <div class="slider__item">
+            <img src="images/partner-5.png" alt="partner" />
+          </div>
+
+          <div class="slider__item">
+            <img src="images/partner-6.png" alt="partner" />
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Newsletter | CTA -->
-    <section class="padtb-80">
+    <section class="cta padtb-80">
       <div class="container">
-        <div class="news-letter">
+        <div class="newsletter">
           <h4>Join Our Newsletter</h4>
-          <form class="newsletter-form">
+          <form class="newsletter__form">
             <input
               type="email"
-              class="form-control"
+              class="newsletter__form-input"
               placeholder="Your Email Address"
-              name="EMAIL"
+              name="email"
               required=""
               autocomplete="off"
             />
@@ -468,95 +522,94 @@
     <!-- Contact -->
     <section class="contact padtb-80">
       <div class="container">
-        <div class="section-title">
+        <div class="section__title">
           <h4>Get in Touch</h4>
           <h2>Let's <span>Contact</span> Us</h2>
           <p></p>
         </div>
 
-        <div class="map-and-info">
-          <div id="map">
-            <h3>The map goes here...</h3>
+        <div class="contact__details">
+          <div class="contact__info">
+            <div class="contact__map">
+              <h3>The map goes here...</h3>
+            </div>
+
+            <ul>
+              <li>
+                <i class="fa fa-map-marker"></i> 38/40, Orlando Martins(Old
+                Strachan Street), Lagos, Island
+              </li>
+              <li>
+                <i class="fa fa-envelope"></i>
+                <a href="#">artfair@gmail.com</a>
+              </li>
+              <li><i class="fa fa-phone"></i> <a href="#">08188000047</a></li>
+              <li><i class="fa fa-fax"></i> <a href="#">08188000071</a></li>
+            </ul>
           </div>
-          <div class="inner-contact">
-            <div class="contact-info">
-              <ul>
-                <li>
-                  <i class="fa fa-map-marker"></i> 38/40, Orlando Martins(Old
-                  Strachan Street), Lagos, Island
-                </li>
-                <li>
-                  <i class="fa fa-envelope"></i>
-                  <a href="#">mayfair@gmail.com</a>
-                </li>
-                <li><i class="fa fa-phone"></i> <a href="#">08188000047</a></li>
-                <li><i class="fa fa-fax"></i> <a href="#">08188000071</a></li>
-              </ul>
-            </div>
 
-            <div class="contact-form">
-              <h4>Stay Connected</h4>
-              <form id="contactForm" novalidate="true">
-                <div class="form-group">
-                  <label for="name">Name</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    name="name"
-                    id="name"
-                    required=""
-                    data-error="Please enter your name"
-                  />
-                </div>
+          <div class="contact__form">
+            <h4>Stay Connected</h4>
+            <form id="contactForm" novalidate="true">
+              <div class="contact__form-group">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  class="contact__form-input"
+                  name="name"
+                  id="name"
+                  required=""
+                  data-error="Please enter your name"
+                />
+              </div>
 
-                <div class="form-group">
-                  <label for="email">Email</label>
-                  <input
-                    type="email"
-                    class="form-control"
-                    name="email"
-                    id="email"
-                    required=""
-                    data-error="Please enter your email"
-                  />
-                </div>
+              <div class="contact__form-group">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  class="contact__form-input"
+                  name="email"
+                  id="email"
+                  required=""
+                  data-error="Please enter your email"
+                />
+              </div>
 
-                <div class="form-group">
-                  <label for="number">Phone Number</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    name="number"
-                    id="number"
-                    required=""
-                    data-error="Please enter your number"
-                  />
-                </div>
+              <div class="contact__form-group">
+                <label for="number">Phone Number</label>
+                <input
+                  type="text"
+                  class="contact__form-input"
+                  name="number"
+                  id="number"
+                  required=""
+                  data-error="Please enter your number"
+                />
+              </div>
 
-                <div class="form-group">
-                  <label for="message">Message</label>
-                  <textarea
-                    name="message"
-                    class="form-control"
-                    id="message"
-                    cols="30"
-                    rows="6"
-                    required=""
-                    data-error="Write your message"
-                  ></textarea>
-                </div>
+              <div class="contact__form-group">
+                <label for="message">Message</label>
+                <textarea
+                  name="message"
+                  class="contact__form-input"
+                  id="message"
+                  cols="30"
+                  rows="6"
+                  required=""
+                  data-error="Write your message"
+                ></textarea>
+              </div>
 
-                <button
-                  type="submit"
-                  class="btn btn-primary"
-                  style="pointer-events: all; cursor: pointer"
-                >
-                  Send Message
-                </button>
-                <div id="msgSubmit" class="h3 text-center hidden"></div>
-                <div class="clearfix"></div>
-              </form>
-            </div>
+              <button
+                type="submit"
+                class="btn btn-primary"
+                style="pointer-events: all; cursor: pointer"
+              >
+                Send Message
+              </button>
+              <div id="msgSubmit" class="h3 text-center hidden"></div>
+              <div class="clearfix"></div>
+            </form>
           </div>
         </div>
       </div>
@@ -566,7 +619,7 @@
     <footer class="footer padtb-80">
       <div class="container">
         <h4>
-          <a href="#"><span>m</span>ayfair</a>
+          <a href="#"><span>a</span>RTFAIR</a>
         </h4>
         <ul>
           <li><a href="#" class="fab fa-facebook"></a></li>
@@ -574,13 +627,14 @@
           <li><a href="#" class="fab fa-instagram"></a></li>
         </ul>
         <p>
-          Copyright <i class="fa fa-copyright"></i> 2023 All Rights Reserved.
+          Copyright <i class="fa fa-copyright"></i>
+          <span id="currentYear"></span> All Rights Reserved.
         </p>
       </div>
     </footer>
 
     <!--Scroll to Top-->
-    <div class="go-top">
+    <div class="go__to-top" id="goTop">
       <i class="fa fa-angle-up"></i>
     </div>
 

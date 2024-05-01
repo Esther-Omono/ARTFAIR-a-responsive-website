@@ -871,15 +871,6 @@ footer p {
     background-color: var(--white);
 }
 
-
-
-
-
-
-
-
-
-
 /* Media Queries */
 @media (max-width: 650px) {
     .header__content {
@@ -1011,5 +1002,14 @@ footer p {
         border-radius: 25px; /* Adjust border radius */
         width: 50%; /* Full width button */
         font-size: 17px;
+    }
+
+    .contact__details {
+        flex-direction: column;
+    }
+
+    .contact__info,
+    .contact__form {
+        width: 100%;
     }
 }
